@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Start navbar home section*/
+img{
+    width: 22% !important;
+    padding: 4px 32px 0px 3px;
+    margin-right: 96px;
+}
+a{
+    font-size: 26px;
+}
+.btn {
+    background-color: #ed7c6a !important;
+    color: white;
+}
+/* End navbar home section*/
+
+/* Start header home section */
+.header-home {
+    background-image: url(../img/img/download.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.h-header-section{
+    background-color: #55a089ad;
+    color: white;
+    padding: 30px;
+    margin-top: 20px;
+    font-size: 42px;
+    line-height: 2;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    width: 91%;
+
+
+    /* margin-top: 36px;
+    margin-right: 176px;
+    margin-left: 90px;
+    padding-top: 24px;
+    padding-bottom: 48px;
+    padding-left: 32px;
+    font-size: 42px;
+    line-height: 2;
+    letter-spacing: 2px;
+    border-radius: 28px; */
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .h-header-section {
+        width: 100%;
+      height: fit-content;
+    }
+  }
+
+  
+  
+/* End header home section */
+
+/* Start school home section  */
+.h3-school{
+    margin-top: 64px !important;
+    color: #074d4c;
+    text-align: center;
+}
+
+.h3-2-school{
+    color: #074d4c;
+}
+
+
+hr{
+    background-color: #e98317;
+    width: 202px;
+    margin: auto;
+    margin-bottom: 40px;
+    height: 4px;
+
+
+    /* height: 7px;
+    border: none;
+    margin: 16px 459px;
+    margin-bottom: 59px; */
+}
+
+.p-school{
+    font-size: 23px;
+}
+
+/* End school home section  */
+
+/* Start serves home section */
+
+.serves-section{
+    background: url(../img/img/Path\ 62.png ), url(../img/img/i-love-my-job-so-much_329181-2178.png);
+    background-size: cover;
+    height: 700px;
+}
+@media only screen and (max-width: 992px) {
+    /* For mobile phones: */
+    .serves-section {
+        width: 100%;
+      height: fit-content;
+
+    }
+  }
+
+/* End serves home section */
+
+/* Start footer home section */
+.footer-home{
+    background-color: #0f7b65;
+    border-radius: 111px 111px 0px 0px;
+}
+/* End footer home section */
